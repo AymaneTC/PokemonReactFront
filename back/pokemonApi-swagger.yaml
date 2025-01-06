@@ -13,8 +13,8 @@ tags:
     description: The routes to handle the connection of the user
   - name: Trainers
     description: The routes to manipulate the trainers data
-  - name: Boxes
-    description: The routes to manipulate the Boxes data related to the trainers
+  - name: BoxesMain
+    description: The routes to manipulate the BoxesMain data related to the trainers
   - name: Pokemons
     description: The routes to manipulate the Pokemons related to the trainers and the boxes
   - name: Trades
@@ -330,7 +330,7 @@ paths:
   /trainers/{trainerId}/boxes:
     get:
       tags:
-        - Boxes
+        - BoxesMain
       summary: retrieving all the boxes of a trainer
       description: It retrieves the main data of all the boxes of a trainer
       parameters:
@@ -369,7 +369,7 @@ paths:
         - bearerAuth: []
     post:
       tags:
-        - Boxes
+        - BoxesMain
       summary: creates a box linked to the calling trainer
       description: It creates a new box for the calling trainer
       parameters:
@@ -417,7 +417,7 @@ paths:
   /trainers/{trainerId}/boxes/{boxId}:
     get:
       tags:
-        - Boxes
+        - BoxesMain
       summary: retrieve data on the box of a trainer
       description: It retrieves the data on one particular box of a trainer
       parameters:
@@ -507,7 +507,7 @@ paths:
         - bearerAuth: []
     patch:
       tags:
-        - Boxes
+        - BoxesMain
       summary: updates the data of a box
       description: It updates the data on one particular box
       parameters:
@@ -562,7 +562,7 @@ paths:
         - bearerAuth: []
     delete:
       tags:
-        - Boxes
+        - BoxesMain
       summary: deletes the box of the trainer
       description: It deletes everything about the box of a trainer
       parameters:
