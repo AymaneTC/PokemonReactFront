@@ -1,8 +1,8 @@
 import { useContext, useEffect, useState } from "react"
 import { useNavigate } from "react-router-dom"
 import { Login } from "../../services/Login.tsx"
-import { TrainerType } from "../../Classes/Trainer.tsx"
-import TrainerRoute from "../../Routes/TrainerRoute.tsx"
+import { TrainerType } from "../../Classes/Dresseur.tsx"
+import DresseurRoute from "../../Routes/DresseurRoute.tsx"
 
 export default function LoginForm() {
   const [login, setLogin] = useState("")
@@ -10,7 +10,7 @@ export default function LoginForm() {
   const [error, setError] = useState(false)
 
   const navigate = useNavigate()
-  const { setTrainerData } = useContext(TrainerRoute)
+  const { setTrainerData } = useContext(DresseurRoute)
 
   useEffect(() => {
     const storedLoginData = localStorage.getItem("loginData")
