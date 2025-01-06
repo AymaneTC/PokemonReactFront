@@ -10,6 +10,7 @@ import BoxDetails from './pages/Boxes/BoxDetails.tsx'
 import CreatePokemon from './pages/Pokemon/CreatePokemon.tsx'
 import ProtectedRoute from './Routes/ProtectedRoute.tsx'
 import PokemonDetails from './pages/Pokemon/PokemonDetails.tsx'
+import UserDetailsPage from "./pages/Auth/UserDetails.tsx";
 
 const router = createBrowserRouter([
   {
@@ -52,6 +53,11 @@ const router = createBrowserRouter([
                 path: "pokemons/:pokemonId",
                 element: <PokemonDetails />
               },
+                {
+                    path: "/user-details",
+                    element: <UserDetailsPage/>
+
+                },
             ],
           },
       ],

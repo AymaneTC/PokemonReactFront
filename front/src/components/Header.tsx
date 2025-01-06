@@ -42,7 +42,7 @@ export default function Header() {
                     <NavLink to="/login">Chercher un Pokémon</NavLink>
                   </li>
                   <li className="text-white hover:text-gray-200 transition-all duration-300">
-                    <NavLink to="/login">Profil utilisateur</NavLink>
+                    <NavLink to="/user-details">Profil utilisateur</NavLink>
                   </li>
                   <li className="flex items-center text-white hover:text-gray-200 transition-all duration-300">
                     <MdLogout className="mr-2" />

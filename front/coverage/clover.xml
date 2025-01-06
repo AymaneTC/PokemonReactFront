@@ -1,22 +1,22 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<coverage generated="1736174734699" clover="3.2.0">
-  <project timestamp="1736174734699" name="All files">
-    <metrics statements="93" coveredstatements="73" conditionals="21" coveredconditionals="14" methods="23" coveredmethods="19" elements="137" coveredelements="106" complexity="0" loc="93" ncloc="93" packages="5" files="10" classes="10"/>
+<coverage generated="1736177197712" clover="3.2.0">
+  <project timestamp="1736177197712" name="All files">
+    <metrics statements="93" coveredstatements="74" conditionals="21" coveredconditionals="18" methods="23" coveredmethods="19" elements="137" coveredelements="111" complexity="0" loc="93" ncloc="93" packages="5" files="10" classes="10"/>
     <package name="Routes">
-      <metrics statements="10" coveredstatements="6" conditionals="6" coveredconditionals="2" methods="3" coveredmethods="1"/>
+      <metrics statements="10" coveredstatements="7" conditionals="6" coveredconditionals="6" methods="3" coveredmethods="1"/>
       <file name="AuthRoute.tsx" path="/home/fupov/Downloads/PCPokemonAPI-main/PokemonReactFront/front/src/Routes/AuthRoute.tsx">
-        <metrics statements="4" coveredstatements="3" conditionals="6" coveredconditionals="2" methods="1" coveredmethods="1"/>
-        <line num="5" count="1" type="stmt"/>
-        <line num="7" count="1" type="cond" truecount="2" falsecount="4"/>
-        <line num="8" count="1" type="stmt"/>
-        <line num="10" count="0" type="stmt"/>
+        <metrics statements="4" coveredstatements="4" conditionals="6" coveredconditionals="6" methods="1" coveredmethods="1"/>
+        <line num="5" count="5" type="stmt"/>
+        <line num="7" count="5" type="cond" truecount="6" falsecount="0"/>
+        <line num="8" count="4" type="stmt"/>
+        <line num="10" count="1" type="stmt"/>
       </file>
       <file name="DresseurRoute.tsx" path="/home/fupov/Downloads/PCPokemonAPI-main/PokemonReactFront/front/src/Routes/DresseurRoute.tsx">
         <metrics statements="6" coveredstatements="3" conditionals="0" coveredconditionals="0" methods="2" coveredmethods="0"/>
-        <line num="4" count="5" type="stmt"/>
-        <line num="9" count="5" type="stmt"/>
+        <line num="4" count="6" type="stmt"/>
+        <line num="9" count="6" type="stmt"/>
         <line num="14" count="0" type="stmt"/>
-        <line num="17" count="5" type="stmt"/>
+        <line num="17" count="6" type="stmt"/>
         <line num="18" count="0" type="stmt"/>
         <line num="19" count="0" type="stmt"/>
       </file>
