@@ -129,9 +129,9 @@ export default function RegisterForm() {
 
         <div className="text-center">
           <p className="text-sm text-gray-600">
-            Already have an account?{" "}
+            Vous avez deja un compte?{" "}
             <Link to="/login" className="font-medium text-green-600 hover:text-green-500">
-              Log in
+              Se Connecter
             </Link>
           </p>
         </div>
