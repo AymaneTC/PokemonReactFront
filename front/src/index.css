@@ -1,0 +1,96 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+    html {
+        font-family: "Proxima Nova", system-ui, sans-serif;
+    }
+}
+
+:root {
+    font-family: 'Segoe UI', sans-serif;
+}
+
+body {
+    background: #f0f8f0; /* Light greenish background for a fresh look */
+    color: #0b6623; /* Dark green for text */
+    margin: 0;
+    padding: 0;
+}
+
+li {
+    list-style: none;
+    cursor: pointer;
+    position: relative;
+    padding: 0.5rem 1rem;
+    border-radius: 8px;
+    transition: background-color 0.3s ease, transform 0.2s ease;
+}
+
+li:hover {
+    background-color: #c4f1c4; /* Soft green background on hover */
+    transform: translateY(-3px); /* Slight lift effect */
+}
+
+li:hover::before {
+    position: absolute;
+    content: '';
+    height: 4px;
+    width: 100%;
+    background: #0b6623; /* Green underline */
+    right: 0;
+    bottom: -10px;
+}
+
+.icon {
+    cursor: pointer;
+    display: inline-block;
+    padding: 0.5rem;
+    border-radius: 50%;
+    background: #e3fbe3; /* Light green */
+    transition: background-color 0.3s ease, transform 0.2s ease;
+}
+
+.icon:hover {
+    background: #0b6623; /* Dark green */
+    color: white;
+    transform: scale(1.1); /* Slight zoom effect */
+}
+
+/* Additional Decorations */
+header {
+    background: linear-gradient(90deg, #0b6623, #c4f1c4);
+    padding: 1rem;
+    color: white;
+    text-align: center;
+    font-size: 1.5rem;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+button {
+    background: #0b6623;
+    color: white;
+    border: none;
+    padding: 0.75rem 1.5rem;
+    border-radius: 8px;
+    font-size: 1rem;
+    cursor: pointer;
+    transition: background-color 0.3s ease, transform 0.2s ease;
+}
+
+button:hover {
+    background: #065d2a; /* Slightly darker green */
+    transform: scale(1.05); /* Slight zoom */
+}
+
+footer {
+    background: #0b6623;
+    color: white;
+    text-align: center;
+    padding: 1rem;
+    border-radius: 8px;
+    margin-top: 2rem;
+    box-shadow: 0 -4px 6px rgba(0, 0, 0, 0.1);
+}
